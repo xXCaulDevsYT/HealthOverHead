@@ -33,12 +33,25 @@ class Main extends PluginBase implements Listener{
     public function onCommand(CommandSender $sender, Command $command, $label, array $args){
         switch($command->getName()){
  
-            case "healthoverhead":
+            case "aquaticmc":
 
-$sender->sendMessage(TextFormat::YELLOW."------------");
-$sender->sendMessage(TextFormat::GREEN."HealthOverHead created by CookieCode. Twitter : @ImCookieGame");
-$sender->sendMessage(TextFormat::RED."Youtube : ImCookieGame");
-$sender->sendMessage(TextFormat::YELLOW."------------");
+$sender->sendMessage(TextFormat::YELLOW."===============[+]===============");
+$sender->sendMessage(TextFormat::GREEN."AquaticMC");
+$sender->sendMessage(TextFormat::RED."Owned By: ZarkysMC , EmeraldAssasinYT");
+$sender->sendMessage(TextFormat::LIGHT_PURPLE."AquaticMC Is a Minecraft Server Network");
+$sender->sendMessage(TextFormat::LIGHT_PURPLE."Designed to be built stronger & more");
+$sender->sendMessage(TextFormat::LIGHT_PURPLE."of an Adventurous Server Network than");
+$sender->sendMessage(TextFormat::LIGHT_PURPLE."any other network ever created.");
+$sender->sendMessage(TextFormat::LIGHT_PURPLE."AquaticMC Is Developed & Owned by");
+$sender->sendMessage(TextFormat::LIGHT_PURPLE."Highly Experienced Programmers & Coders");
+$sender->sendMessage(TextFormat::LIGHT_PURPLE."For More Player Experience & Enjoyment!");
+$sender->sendMessage(TextFormat::GREEN."What is This Server Here?");
+$sender->sendMessage(TextFormat::LIGHT_PURPLE."This Server is KitPvP / Survival / Clans!");
+$sender->sendMessage(TextFormat::LIGHT_PURPLE."Make a Base for your clan , kill players");
+$sender->sendMessage(TextFormat::LIGHT_PURPLE."recieve epic , rewards , custom enchants ,");
+$sender->sendMessage(TextFormat::LIGHT_PURPLE."and more , alll from killing another player");
+$sender->sendMessage(TextFormat::LIGHT_PURPLE."top Clans Recieve Rewards Aswell!");
+$sender->sendMessage(TextFormat::YELLOW."===============[+]===============");
 
 
 return true;
